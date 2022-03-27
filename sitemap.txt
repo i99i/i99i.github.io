@@ -1,4 +1,10 @@
-http://example.com/2022/03/27/article-title/
-http://example.com/2022/03/27/hello-world/
-http://example.com/
-http://example.com/tags/String-Number-Boolean-Null-Undefined-Symbol-Object-Array-Function/
+http://www.屵.com/2022/03/27/js-shu-ju-lei-xing/
+http://www.屵.com/404/index.html
+http://www.屵.com/friends/index.html
+http://www.屵.com/contact/index.html
+http://www.屵.com/about/index.html
+http://www.屵.com/tags/index.html
+http://www.屵.com/categories/index.html
+http://www.屵.com/2022/03/27/hello-world/
+http://www.屵.com/
+http://www.屵.com/tags/JavaScript/
