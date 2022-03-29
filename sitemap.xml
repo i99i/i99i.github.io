@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.屵.com/2022/03/27/js-shu-ju-lei-xing/</loc>
+    <loc>https://i99i.github.io/2022/03/28/js-yun-suan-fu/</loc>
+    
+    <lastmod>2022-03-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://i99i.github.io/2022/03/27/js-shu-ju-lei-xing/</loc>
     
     <lastmod>2022-03-27</lastmod>
     
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://www.屵.com/404/index.html</loc>
+    <loc>https://i99i.github.io/404/index.html</loc>
     
     <lastmod>2022-03-27</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://www.屵.com/friends/index.html</loc>
+    <loc>https://i99i.github.io/friends/index.html</loc>
     
     <lastmod>2022-03-27</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://www.屵.com/contact/index.html</loc>
+    <loc>https://i99i.github.io/contact/index.html</loc>
     
     <lastmod>2022-03-27</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://www.屵.com/about/index.html</loc>
+    <loc>https://i99i.github.io/about/index.html</loc>
     
     <lastmod>2022-03-27</lastmod>
     
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://www.屵.com/tags/index.html</loc>
+    <loc>https://i99i.github.io/tags/index.html</loc>
     
     <lastmod>2022-03-27</lastmod>
     
@@ -56,16 +65,7 @@
   </url>
   
   <url>
-    <loc>http://www.屵.com/categories/index.html</loc>
-    
-    <lastmod>2022-03-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.屵.com/2022/03/27/hello-world/</loc>
+    <loc>https://i99i.github.io/categories/index.html</loc>
     
     <lastmod>2022-03-27</lastmod>
     
@@ -75,20 +75,34 @@
   
 
   <url>
-    <loc>http://www.屵.com/</loc>
-    <lastmod>2022-03-27</lastmod>
+    <loc>https://i99i.github.io/</loc>
+    <lastmod>2022-03-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://www.屵.com/tags/JavaScript/</loc>
-    <lastmod>2022-03-27</lastmod>
+    <loc>https://i99i.github.io/tags/JavaScript/</loc>
+    <lastmod>2022-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i99i.github.io/tags/JS%E8%BF%90%E7%AE%97%E7%AC%A6/</loc>
+    <lastmod>2022-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://i99i.github.io/categories/JavaScript/</loc>
+    <lastmod>2022-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
