@@ -1,5 +1,6 @@
-https://屵.com/2022/03/28/js-yun-suan-fu/
-https://屵.com/2022/03/27/js-shu-ju-lei-xing/
+https://屵.com/archives/f2108d0a.html
+https://屵.com/archives/18789.html
+https://屵.com/archives/19d8bcc5.html
 https://屵.com/404/index.html
 https://屵.com/friends/index.html
 https://屵.com/contact/index.html
@@ -7,6 +8,7 @@ https://屵.com/about/index.html
 https://屵.com/tags/index.html
 https://屵.com/categories/index.html
 https://屵.com/
-https://屵.com/tags/JavaScript/
+https://屵.com/tags/JS%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/
 https://屵.com/tags/JS%E8%BF%90%E7%AE%97%E7%AC%A6/
 https://屵.com/categories/JavaScript/
+https://屵.com/categories/markdown/

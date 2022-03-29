@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JS数据类型（基本数据类型+引用类型）, 屵的博客">
+    <meta name="keywords" content="Markdown使用详解, 屵的博客">
     <meta name="description" content="专注创新 分享互联网精神">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JS数据类型（基本数据类型+引用类型） | 屵的博客</title>
+    <title>Markdown使用详解 | 屵的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,10 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.1"></head>
+<meta name="generator" content="Hexo 5.4.1">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="屵的博客" type="application/atom+xml">
+</head>
 
 
 
@@ -310,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JS数据类型（基本数据类型+引用类型）</h1>
+                    <h1 class="description center-align post-title">Markdown使用详解</h1>
                 </div>
             </div>
         </div>
@@ -429,16 +432,21 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/JavaScript/">
-                                <span class="chip bg-color">JavaScript</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/markdown/" class="post-category">
+                                markdown
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -447,7 +455,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-03-27
+                    2022-03-29
                 </div>
                 
 
@@ -471,108 +479,102 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="JS数据类型（基本数据类型-引用类型）"><a href="#JS数据类型（基本数据类型-引用类型）" class="headerlink" title="JS数据类型（基本数据类型+引用类型）"></a>JS数据类型（基本数据类型+引用类型）</h1><p>JavaScript 是一种动态类型的语言，在定义变量时不需要提前指定变量的类型，变量的类型是在程序运行过程中由 JavaScript 引擎动态决定的，另外，您可以使用同一个变量来存储不同类型的数据</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> a<span class="token punctuation">;</span>  <span class="token comment">// 此时 a 为 Undefined</span>
-a <span class="token operator">=</span> <span class="token string">"https://www.jianshu.com/u/32841c0369fb"</span><span class="token punctuation">;</span> <span class="token comment">// 此时 a 为 String 类型</span>
-a <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>  <span class="token comment">// 此时 a 为 Number 类型</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+                <h2 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h2><p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题</p>
+<blockquote>
+<p>$ hexo new “title”</p>
+</blockquote>
+<p>当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md</p>
+<p>这个文件就是将要发布到网站上的原始文件，用于记录文章内容</p>
+<h2 id="编写文章（基于-Markdown）"><a href="#编写文章（基于-Markdown）" class="headerlink" title="编写文章（基于 Markdown）"></a>编写文章（基于 Markdown）</h2><h3 id="Markdown-简介"><a href="#Markdown-简介" class="headerlink" title="Markdown 简介"></a>Markdown 简介</h3><blockquote>
+<p>Markdown 是一种可以使用普通文本编辑器编写的 标记语言，通过简单的 标记语法，它可以使普通文本内容具有一定的格式</p>
+</blockquote>
+<blockquote>
+<p>在编写 Markdown 时，博主强烈的推荐给大家一款简洁易用的 Markdown 编辑器 —— <strong>Typora</strong></p>
+</blockquote>
+<h3 id="Typora使用说明"><a href="#Typora使用说明" class="headerlink" title="Typora使用说明"></a>Typora使用说明</h3><h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><h5 id="Typora-快捷键"><a href="#Typora-快捷键" class="headerlink" title="Typora 快捷键"></a>Typora 快捷键</h5><blockquote>
+<p>Ctrl+1：一级标题</p>
+<p>Ctrl+2：二级标题</p>
+<p>Ctrl+3：三级标题</p>
+<p>Ctrl+4：四级标题</p>
+<p>Ctrl+5：五级标题</p>
+<p>Ctrl+6 ：六级标题</p>
+<p>Ctrl+0：段落</p>
+</blockquote>
+<h4 id="粗体、斜体、删除线和下划线"><a href="#粗体、斜体、删除线和下划线" class="headerlink" title="粗体、斜体、删除线和下划线"></a>粗体、斜体、删除线和下划线</h4><h5 id="Typora-快捷键-1"><a href="#Typora-快捷键-1" class="headerlink" title="Typora 快捷键"></a>Typora 快捷键</h5><blockquote>
+<p>Ctrl+I：斜体</p>
+<p>Ctrl+B：粗体</p>
+<p>Ctrl+U：下划线</p>
+<p>Alt+Shift+5：删除线</p>
+</blockquote>
+<h4 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h4><p><strong>Typora 快捷键：</strong> Ctrl+Shift+Q</p>
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><p><strong>Typora 快捷键：</strong></p>
+<blockquote>
+<p>行内代码：Ctrl+Shift+`</p>
+<p>多行代码：Ctrl+Shift+K</p>
+</blockquote>
+<h4 id="公式块"><a href="#公式块" class="headerlink" title="公式块"></a>公式块</h4><p><strong>Typora 快捷键：</strong> Ctrl+Shift+M</p>
+<h4 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h4><blockquote>
+<p>方法一：—</p>
+<p>方法二：+++</p>
+<p>方法三：***</p>
+</blockquote>
+<h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><p><strong>Typora 快捷键：</strong></p>
+<blockquote>
+<p>有序列表项：Ctrl+Shift+[</p>
+<p>无序列表项：Ctrl+Shift+]</p>
+</blockquote>
+<h4 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h4><p><strong>Typora 快捷键：</strong> Ctrl+T</p>
+<h4 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h4><p><strong>Typora快捷键：</strong> Ctrl+K</p>
+<h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h4><p><strong>Typora快捷键：</strong> Ctrl+Shift+I</p>
+<blockquote>
+<p>说明：在 Hexo中 插入图片时，请按照以下的步骤进行设置</p>
+<ol>
+<li>将站点配置文件 中的 post_asset_folder 选项的值设置为 true</li>
+</ol>
+<ol start="2">
+<li><p> 在站点文件夹中打开 git bash，输入命令 npm install hexo-asset-image –save 安装插件</p>
+</li>
+<li><p> 这样，当使用 hexo new title 创建文章时，将同时在 source/_post 文件夹中生成一个与 title 同名的文件夹，我们只需将图片放进此文件夹中，然后在文章中通过 Markdown 语法进行引用即可</p>
+</li>
+</ol>
+<blockquote>
+<p>例如，在资源文件夹（就是那个与 title 同名的文件夹）中添加图片 example.PNG，则可以在对应的文章中使用语句![示例图片](title/example.PNG “示例图片”) 添加图片</p>
+</blockquote>
+</blockquote>
+<hr>
+<h3 id="高级设置"><a href="#高级设置" class="headerlink" title="高级设置"></a>高级设置</h3><h4 id="模板设置"><a href="#模板设置" class="headerlink" title="模板设置"></a>模板设置</h4><p>当我们使用命令 <code>hexo new "title"</code> 创建文章时，Hexo 会根据 <code>/scaffolds/post.md</code> 对新文章进行初始化</p>
+<p>换言之，<code>/scaffolds/post.md</code> 就是新文章的 <strong>模板</strong>，所以我们可以修改它来适应自己的写作习惯</p>
+<p>示例如下</p>
+<blockquote>
+<pre class="line-numbers language-hexo" data-language="hexo"><code class="language-hexo">title: {{ title }}
+date: {{ date }}
+tags: 
+categories: <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 
-<h3 id="基本数据类型（值类型）"><a href="#基本数据类型（值类型）" class="headerlink" title="基本数据类型（值类型）"></a>基本数据类型（值类型）</h3><hr>
-<p><em><strong>字符串（String）、数字（Number）、布尔（Boolean）、空（Null）、未定义（Undefined）、Symbol</strong></em></p>
-<h5 id="String-类型"><a href="#String-类型" class="headerlink" title="String 类型"></a>String 类型</h5><p>字符串（String）类型是一段以单引号’’或双引号””包裹起来的文本，例如 ‘123’、”abc”。需要注意的是，单引号和双引号是定义字符串的不同方式，并不是字符串的一部分</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">"Let's have a cup of coffee."</span><span class="token punctuation">;</span>  <span class="token comment">// 双引号中包含单引号</span>
-<span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">'He said "Hello" and left.'</span><span class="token punctuation">;</span>    <span class="token comment">// 单引号中包含双引号</span>
-<span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">'We\'ll never give up.'</span><span class="token punctuation">;</span>        <span class="token comment">// 使用反斜杠转义字符串中的单引号 </span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h4 id="头部设置"><a href="#头部设置" class="headerlink" title="头部设置"></a>头部设置</h4><p>在每篇利用 Hexo 创建的文章的开头，都会有对文章进行说明的文字，叫做 <strong>文章头部</strong></p>
+<p>文章的头部除了可以设置文章标题、发布日期等基础信息外，还可以为文章添加标签、分类等</p>
+<p>一个简单的示例如下</p>
+<blockquote>
+<pre class="line-numbers language-hexo" data-language="hexo"><code class="language-hexo"> title: Title
+date: YYYY-MM-DD HH:MM:SS
+tags: [tag1, tag2, ...]
+categories: category<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h5 id="Number-类型"><a href="#Number-类型" class="headerlink" title="Number 类型"></a>Number 类型</h5><p>数值（Number）类型用来定义数值，JavaScript 中不区分整数和小数（浮点数），统一使用 Number 类型表示</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> num1 <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>     <span class="token comment">// 整数</span>
-<span class="token keyword">var</span> num2 <span class="token operator">=</span> <span class="token number">3.14</span><span class="token punctuation">;</span>    <span class="token comment">// 浮点数</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p><strong>注意</strong>：属性和属性值之间必须有一个空格，否则会解析错误</p>
+</blockquote>
+<h4 id="首页显示"><a href="#首页显示" class="headerlink" title="首页显示"></a>首页显示</h4><p>在利用 Hexo 框架搭建的博客网站中，首页会显示文章的内容，且默认显示文章的全部内容</p>
+<p>如果当文章太长的时候就会显得十分冗余，所以我们有必要对其进行精简</p>
+<p>这时，我们只需在文章中使用 <code>&lt;!--more--&gt;</code> 标志即可，表示只会显示标志前面的内容</p>
+<hr>
+<h2 id="部署发布"><a href="#部署发布" class="headerlink" title="部署发布"></a>部署发布</h2><p>在站点文件夹中打开 git bash，输入如下命令部署和发布文章</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js">hexo clean <span class="token operator">&amp;&amp;</span> hexo g <span class="token operator">&amp;&amp;</span> hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <blockquote>
-<p>注意：Number 类型所能定义的数值并不是无限的</p>
+<p>建议：在使用 <code>hexo g</code> 部署之后，可以先使用 <code>hexo s</code> 运行本地站点，然后在浏览器输入地址 <a target="_blank" rel="noopener" href="http://lacolhost:4000/">http://lacolhost:4000/</a> 查看运行结果，检查无误后再使用 <code>hexo d</code> 发布</p>
 </blockquote>
-<p>对于一些极大或者极小的数，也可以通过科学（指数）计数法来表示</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> y<span class="token operator">=</span><span class="token number">123e5</span><span class="token punctuation">;</span>      <span class="token comment">// 123 乘以 10 的 5 次方，即 12300000</span>
-<span class="token keyword">var</span> z<span class="token operator">=</span><span class="token number">123e-5</span><span class="token punctuation">;</span>     <span class="token comment">// 123 乘以 10 的 -5 次方，即 0.00123</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<blockquote>
-<p>Number 类型中还有一些比较特殊的值，分别为 Infinity、-Infinity 和 NaN，其中<br>Infinity：用来表示正无穷大的数值，一般指大于 1.7976931348623157e+308 的数；<br>-Infinity：用来表示负无穷大的数值，一般指小于 5e-324 的数；<br>NaN：即非数值（Not a Number 的缩写），用来表示无效或未定义的数学运算结构，例如 0 除以 0。<br>提示：如果某次计算的结果超出了 JavaScript 中 Number 类型的取值范围，那么这个数就会自动转化为无穷大，正数为 Infinity，负数为 -Infinity。</p>
-</blockquote>
-<h5 id="Boolean-类型"><a href="#Boolean-类型" class="headerlink" title="Boolean 类型"></a>Boolean 类型</h5><p>布尔（Boolean）类型只有两个值，true（真）或者 false（假），在做条件判断时使用的比较多，您除了可以直接使用 true 或 false 来定义布尔类型的变量外，还可以通过一些表达式来得到布尔类型的值</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>   <span class="token comment">// 定义一个布尔值 true</span>
-<span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>  <span class="token comment">// 定义一个布尔值 false</span>
-<span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token comment">// 表达式 2 > 1 成立，其结果为“真（true）”，所以 c 的值为布尔类型的 true</span>
-<span class="token keyword">var</span> d <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">&lt;</span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token comment">// 表达式 2 &lt; 1 不成立，其结果为“假（false）”，所以 c 的值为布尔类型的 false</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h5 id="Undefined-类型"><a href="#Undefined-类型" class="headerlink" title="Undefined 类型"></a>Undefined 类型</h5><p>Undefined 也是一个只有一个值的特殊数据类型，表示未定义。当我们声明一个变量但未给变量赋值时，这个变量的默认值就是 Undefined</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> num<span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 输出 undefined</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>在使用 typeof 操作符查看未赋值的变量类型时，会发现它们的类型也是 undefined。对于未声明的变量，使用 typeof 操作符查看其类型会发现，未声明的变量也是 undefined</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> message<span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> message<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 输出 undefined</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> name<span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">// 输出 undefined</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h5 id="Symbol-类型"><a href="#Symbol-类型" class="headerlink" title="Symbol 类型"></a>Symbol 类型</h5><p>Symbol 是 ECMAScript6 中引入的一种新的数据类型，表示独一无二的值，Symbol 类型的值需要使用 Symbol() 函数来生成</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">"123"</span><span class="token punctuation">;</span>
-<span class="token keyword">var</span> sym1 <span class="token operator">=</span> <span class="token function">Symbol</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">var</span> sym2 <span class="token operator">=</span> <span class="token function">Symbol</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>sym1<span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 输出 Symbol(123)</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>sym2<span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 输出 Symbol(123)</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>sym1 <span class="token operator">==</span> sym2<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 输出 false ：虽然 sym1 与 sym2 看起来是相同的，但实际上它们并    不一样，根据 Symbol 类型的特点，sym1 和 sym2 都是独一无二的</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="引用数据类型"><a href="#引用数据类型" class="headerlink" title="引用数据类型"></a>引用数据类型</h3><hr>
-<p><em><strong>对象（Object）、数组（Array）、函数（Function）</strong></em></p>
-<h5 id="Object-类型"><a href="#Object-类型" class="headerlink" title="Object 类型"></a>Object 类型</h5><p>JavaScript 中的对象（Object）类型是一组由键、值组成的无序集合，定义对象类型需要使用花括号{ }，格式如下：</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token punctuation">&#123;</span><span class="token literal-property property">name1</span><span class="token operator">:</span> value1<span class="token punctuation">,</span> <span class="token literal-property property">name2</span><span class="token operator">:</span> value2<span class="token punctuation">,</span> <span class="token literal-property property">name3</span><span class="token operator">:</span> value3<span class="token punctuation">,</span> <span class="token operator">...</span><span class="token punctuation">,</span> <span class="token literal-property property">nameN</span><span class="token operator">:</span> valueN<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<blockquote>
-<p>其中 name1、name2、name3、…、nameN 为对象中的键，value1、value2、value3、…、valueN 为对应的值。</p>
-</blockquote>
-<p>在 JavaScript 中，对象类型的键都是字符串类型的，值则可以是任意数据类型。要获取对象中的某个值，可以使用对象名.键的形式</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> person <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
-<span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'Bob'</span><span class="token punctuation">,</span>
-<span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
-<span class="token literal-property property">tags</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'js'</span><span class="token punctuation">,</span> <span class="token string">'web'</span><span class="token punctuation">,</span> <span class="token string">'mobile'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-<span class="token literal-property property">city</span><span class="token operator">:</span> <span class="token string">'Beijing'</span><span class="token punctuation">,</span>
-<span class="token literal-property property">hasCar</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-<span class="token literal-property property">zipcode</span><span class="token operator">:</span> <span class="token keyword">null</span>
-<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment">// 输出 Bob</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token punctuation">.</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// 输出 20</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h5 id="Array-类型"><a href="#Array-类型" class="headerlink" title="Array 类型"></a>Array 类型</h5><p>数组（Array）是一组按顺序排列的数据的集合，数组中的每个值都称为元素，而且数组中可以包含任意类型的数据。在 JavaScript 中定义数组需要使用方括号[ ]，数组中的每个元素使用逗号进行分隔</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token string">'hello'</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>也可以使用 Array() 函数来创建数组</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> arr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Array</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment">// 输出 [1, 2, 3, 4]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<blockquote>
-<p>数组中的元素可以通过索引来访问。数组中的索引从 0 开始，并依次递增，也就是说数组第一个元素的索引为 0，第二个元素的索引为 1，第三个元素的索引为 2，以此类推</p>
-</blockquote>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3.14</span><span class="token punctuation">,</span> <span class="token string">'Hello'</span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 输出索引为 0 的元素，即 1</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 输出索引为 5 的元素，即 true</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 索引超出了范围，返回 undefined</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h5 id="Function-类型"><a href="#Function-类型" class="headerlink" title="Function 类型"></a>Function 类型</h5><p>函数（Function）是一段具有特定功能的代码块，函数并不会自动运行，需要通过函数名调用才能运行</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-<span class="token keyword">return</span> <span class="token string">"Hello, "</span> <span class="token operator">+</span> name<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-<span class="token keyword">var</span> res <span class="token operator">=</span> <span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token string">"Jinghai"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 输出 Hello, Jinghai</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>函数还可以存储在变量、对象、数组中，而且函数可以作为参数传递给其它函数，或则从其它函数返回</p>
-<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> <span class="token function-variable function">fun</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"https://www.jianshu.com/u/32841c0369fb"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-
-<span class="token keyword">function</span> <span class="token function">createGreeting</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-    <span class="token keyword">return</span> <span class="token string">"Hello, "</span> <span class="token operator">+</span> name<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-<span class="token keyword">function</span> <span class="token function">displayGreeting</span><span class="token punctuation">(</span><span class="token parameter">greetingFunction<span class="token punctuation">,</span> userName</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-    <span class="token keyword">return</span> <span class="token function">greetingFunction</span><span class="token punctuation">(</span>userName<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-<span class="token keyword">var</span> result <span class="token operator">=</span> <span class="token function">displayGreeting</span><span class="token punctuation">(</span>createGreeting<span class="token punctuation">,</span> <span class="token string">"Jinghai"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 输出 Hello, Jinghai</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h1 id="读后有收获可以请作者喝咖啡"><a href="#读后有收获可以请作者喝咖啡" class="headerlink" title="读后有收获可以请作者喝咖啡"></a>读后有收获可以请作者喝咖啡</h1>
+<script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">
                 
             </div>
             <hr/>
@@ -598,7 +600,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://屵.com/2022/03/27/js-shu-ju-lei-xing/">https://屵.com/2022/03/27/js-shu-ju-lei-xing/</a>
+                    <a href="https://屵.com/archives/f2108d0a.html">https://屵.com/archives/f2108d0a.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -635,11 +637,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/JavaScript/">
-                                    <span class="chip bg-color">JavaScript</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -807,11 +805,54 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/03/28/js-yun-suan-fu/">
+                <a href="/archives/f2108d0a.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Markdown使用详解">
+                        
+                        <span class="card-title">Markdown使用详解</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-29
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/markdown/" class="post-category">
+                                    markdown
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/archives/19d8bcc5.html">
                     <div class="card-image">
                         
                         
@@ -827,9 +868,9 @@ console<span class="token punctuation">.</span><span class="token function">log<
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-28
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-28
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -847,52 +888,6 @@ console<span class="token punctuation">.</span><span class="token function">log<
                     
                     <a href="/tags/JS%E8%BF%90%E7%AE%97%E7%AC%A6/">
                         <span class="chip bg-color">JS运算符</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/03/27/js-shu-ju-lei-xing/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="JS数据类型（基本数据类型+引用类型）">
-                        
-                        <span class="card-title">JS数据类型（基本数据类型+引用类型）</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-27
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            i996的肥仔
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/JavaScript/">
-                        <span class="chip bg-color">JavaScript</span>
                     </a>
                     
                 </div>
