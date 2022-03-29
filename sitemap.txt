@@ -7,6 +7,6 @@ https://屵.com/about/index.html
 https://屵.com/tags/index.html
 https://屵.com/categories/index.html
 https://屵.com/
-https://屵.com/tags/JS%E8%BF%90%E7%AE%97%E7%AC%A6/
 https://屵.com/tags/JavaScript/
+https://屵.com/tags/JS%E8%BF%90%E7%AE%97%E7%AC%A6/
 https://屵.com/categories/JavaScript/
