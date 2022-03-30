@@ -1,3 +1,4 @@
+https://屵.com/archives/379d8b7a.html
 https://屵.com/archives/6c27b784.html
 https://屵.com/archives/f2108d0a.html
 https://屵.com/archives/18789.html
@@ -9,10 +10,9 @@ https://屵.com/about/index.html
 https://屵.com/tags/index.html
 https://屵.com/categories/index.html
 https://屵.com/
-https://屵.com/tags/hexo/
 https://屵.com/tags/JS%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/
-https://屵.com/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/
+https://屵.com/tags/Typora/
 https://屵.com/tags/JS%E8%BF%90%E7%AE%97%E7%AC%A6/
-https://屵.com/categories/markdown/
+https://屵.com/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/
 https://屵.com/categories/JavaScript/
-https://屵.com/categories/hexo/
+https://屵.com/categories/markdown/
