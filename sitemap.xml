@@ -200,13 +200,6 @@
 
   
   <url>
-    <loc>https://屵.com/tags/JS%E8%BF%90%E7%AE%97%E7%AC%A6/</loc>
-    <lastmod>2022-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://屵.com/tags/JS%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
     <lastmod>2022-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -214,7 +207,7 @@
   </url>
   
   <url>
-    <loc>https://屵.com/tags/Typora/</loc>
+    <loc>https://屵.com/tags/JS%E8%BF%90%E7%AE%97%E7%AC%A6/</loc>
     <lastmod>2022-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -222,6 +215,13 @@
   
   <url>
     <loc>https://屵.com/tags/JS%E4%BA%8B%E4%BB%B6/</loc>
+    <lastmod>2022-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://屵.com/tags/Typora/</loc>
     <lastmod>2022-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -249,13 +249,6 @@
   </url>
   
   <url>
-    <loc>https://屵.com/tags/JS-Method/</loc>
-    <lastmod>2022-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://屵.com/tags/JS-DOM/</loc>
     <lastmod>2022-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -271,6 +264,13 @@
   
   <url>
     <loc>https://屵.com/tags/JS%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2022-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://屵.com/tags/JS-Method/</loc>
     <lastmod>2022-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
